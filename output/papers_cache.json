@@ -19,49 +19,48 @@
       "Research profiling",
       "Bibliometrics"
     ],
-    "abstract": "이 논문은 Web of Science 데이터베이스에서 수집한 528편의 논문을 대상으로 '표준화와 혁신' 연구의 주요 주제와 논점을 프로파일링한다. 트렌드, 요인, 클러스터링 분석을 통해 표준화와 혁신 연구가 1995년 13편에서 2008년 68편으로 지속적으로 성장했음을 규명하였다. 또한 표준화와 혁신의 맥락적 구조를 보여주는 9개의 주제 클러스터로 구성된 탐색적 분류 체계를 제시하였다.",
+    "abstract": "이 논문은 Web of Science 데이터베이스에서 검색된 528편의 논문을 대상으로 '표준화와 혁신' 분야의 연구 프로파일링을 수행하였다. 트렌드 분석, 요인 분석, 군집 분석을 활용하여 표준화와 혁신 연구의 성장 추세, 주요 주제 영역, 그리고 9개의 주제 클러스터로 구성된 탐색적 분류 체계를 제시하였다. 연구 결과는 표준화와 혁신에 관한 지속적인 정책 수립 및 미래 연구 방향에 대한 시사점을 제공한다.",
     "research_type": "quantitative",
-    "research_type_reason": "트렌드 분석, 요인 분석, 클러스터링 분석 등 통계적·계량적 서지분석(bibliometrics) 방법론을 사용하여 528편의 논문 데이터를 정량적으로 분석하였다.",
+    "research_type_reason": "Web of Science 데이터베이스의 528편 논문을 대상으로 트렌드 분석, 요인 분석, 군집 분석 등 계량서지학적 통계 방법론을 사용하였기 때문이다.",
     "language": "en",
     "file": "research profiling for standardization and innovation.pdf",
-    "pdf_path": "./pdfs\\research profiling for standardization and innovation.pdf",
+    "pdf_path": "C:/Users/E/Documents/lit-review-pipeline/pdfs\\research profiling for standardization and innovation.pdf",
     "analysis": {
-      "research_purpose": "Web of Science 데이터베이스에서 수집한 논문을 대상으로 '표준화와 혁신(standardization and innovation)' 연구 분야의 주요 주제, 논점, 트렌드를 프로파일링하고 탐색적 분류 체계(taxonomy)를 제시하는 것. 별도의 가설 검증보다는 서지계량학적 탐색적 분석을 목적으로 함.",
-      "theoretical_framework": "서지계량학(bibliometrics) 및 연구 프로파일링(research profiling) 이론에 기반. 표준화가 혁신의 장애물이 아닌 '촉진자(enabler) 또는 촉매(catalyst)'로 기능한다는 관점(Blind 2009; Farrell and Saloner 1985; Swann 2000 등)을 배경으로, 표준화와 혁신 연구의 지식 구조를 계량적으로 규명하는 탐색적 연구 모형을 채택함.",
-      "research_design": "횡단적 서지계량 조사 설계(cross-sectional bibliometric survey). 1995년~2008년 출판된 논문 데이터를 대상으로 트렌드 분석, 요인 분석, 클러스터링 분석을 순차적으로 수행하는 비실험적 탐색 설계.",
-      "sample": "표본 크기: 528편의 학술 논문. 표집 방법: Web of Science(WoS) 데이터베이스에서 '표준화(standardization)'와 '혁신(innovation)' 관련 키워드 검색을 통한 전수 수집(census sampling). 모집단 특성: 1995년~2008년 WoS에 색인된 표준화 및 혁신 관련 국제 학술 논문 전체.",
+      "research_purpose": "Web of Science 데이터베이스에서 검색된 '표준화와 혁신' 관련 논문들의 연구 프로파일링을 수행하여 해당 분야의 주요 토픽, 연구 트렌드, 발표 패턴, 그리고 주제 군집 분류 체계를 탐색적으로 규명하는 것. 특정 가설 검증보다는 계량서지학적 탐색을 목적으로 함.",
+      "theoretical_framework": "계량서지학(Bibliometrics) 및 연구 프로파일링(Research Profiling) 이론에 기반. 표준화가 혁신의 장애물이 아닌 촉진자(enabler/catalyst)라는 정책적·학술적 관점을 배경으로, 기술혁신관리(TIM) 분야의 선행 서지학 연구(Gamber et al. 2008 등)를 참조. 별도의 인과적 연구 모형은 설정되지 않음.",
+      "research_design": "횡단적 문헌계량 조사 설계(Cross-sectional bibliometric survey). 1995~2008년 기간 동안 출판된 논문들을 대상으로 한 비실험적 기술 연구.",
+      "sample": "표본 크기: 528편의 학술 논문. 표집 방법: Web of Science(WoS) 데이터베이스에서 '표준화(standardization)'와 '혁신(innovation)' 키워드로 검색하여 검색된 전수 논문 사용(purposive/census sampling). 모집단 특성: 1995년부터 2008년까지 WoS에 색인된 표준화 및 혁신 관련 학술 논문 전체.",
       "variables": {
         "independent": [
-          "출판 연도(publication year, 1995~2008)",
-          "주제 분야(subject group domain: management, economics, environment, chemistry, computer science, telecommunications)"
+          "출판 연도(Publication Year)",
+          "주제 분야(Subject Domain)",
+          "게재 저널(Source Journal)"
         ],
         "dependent": [
-          "연간 출판 논문 수(annual publication count)",
-          "주제 클러스터 구조(topical cluster structure)"
+          "논문 출판 수(Number of Publications)",
+          "주제 군집 구조(Topical Cluster Structure)",
+          "연구 트렌드(Research Trend)"
         ],
         "control": [
-          "데이터베이스 한정(Web of Science 색인 논문으로 제한)",
-          "검색 기간 한정(1995~2008)"
+          "해당 없음(비실험적 서지분석 연구로 통제변수 미설정)"
         ]
       },
-      "instruments": "Web of Science 데이터베이스의 서지정보(제목, 키워드, 초록, 저자, 저널, 인용 정보 등)를 측정 도구로 활용. 별도의 설문 도구나 Cronbach α 산출은 없음. 타당도는 WoS의 색인 기준 및 키워드 검색 전략의 일관성에 의존.",
-      "analysis_method": "① 트렌드 분석(trend analysis): 연도별 출판 빈도 및 성장률 분석. ② 요인 분석(factor analysis): 주제어 및 키워드 기반 잠재 요인 도출. ③ 클러스터링 분석(clustering analysis): 논문 간 유사성 기반 주제 클러스터 분류(9개 클러스터 도출). ④ 기술통계(descriptive statistics): 저널별·분야별 논문 분포 분석.",
+      "instruments": "측정 도구: Web of Science 데이터베이스 검색 시스템(키워드 기반 문헌 검색). 논문의 서지 정보(제목, 초록, 키워드, 저자, 저널명, 출판연도, 인용 정보) 활용. 별도의 설문 도구 없음. Cronbach α 등 신뢰도·타당도 계수 보고 없음(텍스트 기반 계량 분석).",
+      "analysis_method": "1) 트렌드 분석(Trend Analysis): 연도별 논문 출판 수 변화 추이 분석. 2) 요인 분석(Factor Analysis): 주요 연구 주제 및 변수 구조 파악. 3) 군집 분석(Clustering Analysis): 논문들의 주제적 유사성에 기반한 9개 주제 클러스터 도출. 4) 기술통계(Descriptive Statistics): 저널별, 주제 도메인별 논문 분포 분석.",
       "key_findings": [
-        "표준화와 혁신 연구는 1995년 13편에서 2008년 68편으로 지속적으로 성장하였으며, 해당 기간 총 528편이 출판됨.",
-        "출판 논문의 대다수는 경영(management), 경제(economics), 환경(environment), 화학(chemistry), 컴퓨터과학(computer science), 통신(telecommunications) 6개 주제 분야에 분포함.",
-        "기술혁신경영(Technology Innovation Management, TIM) 전문 저널이 표준화와 혁신 주제 논문의 가장 핵심적인 출판 원천으로 확인됨.",
-        "클러스터링 분석을 통해 표준화와 혁신 연구의 맥락적 구조를 나타내는 9개의 주제 클러스터로 구성된 탐색적 분류 체계(taxonomy)가 도출됨.",
-        "표준화 전문 저널(IJITSR, IJSS, CSI)은 수가 매우 제한적이며, 관련 논문이 다양한 학술 커뮤니티와 저널에 분산 출판되어 있음이 확인됨."
+        "표준화와 혁신 연구는 1995년 13편에서 2008년 68편으로 지속적으로 성장하였음.",
+        "논문의 대다수는 경영(management), 경제학(economics), 환경(environment), 화학(chemistry), 컴퓨터과학(computer science), 통신(telecommunications) 등 6개 주제 도메인에 집중 게재됨.",
+        "기술혁신관리(TIM) 전문 저널이 표준화와 혁신 주제에 가장 중심적인 출판 매체임.",
+        "군집 분석을 통해 표준화와 혁신의 맥락적 구조를 나타내는 9개의 주제 클러스터로 구성된 탐색적 분류 체계(taxonomy)를 도출함.",
+        "기존 표준화 전문 저널(IJITSR, IJSS, CSI)은 수가 제한적이며, 관련 논문들이 다양한 학문 공동체에 분산 게재되어 있음."
       ],
-      "effect_size": "해당 없음. 본 연구는 서지계량학적 탐색 연구로서 Cohen's d, η², R² 등 전통적 효과 크기 지표를 산출하지 않음.",
+      "effect_size": "보고된 효과 크기 없음(Cohen's d, η², R² 등 효과 크기 지표 미보고. 계량서지학적 기술 연구로 통계적 효과 크기 산출 해당 없음).",
       "limitations": [
-        "[내적 타당도] Web of Science 단일 데이터베이스만 활용하여 Scopus, Google Scholar 등 타 데이터베이스에 색인된 논문은 제외됨으로써 데이터 편향 가능성 존재.",
-        "[내적 타당도] 키워드 검색 전략의 한계로 인해 표준화와 혁신을 다루지만 해당 키워드를 명시하지 않은 논문이 누락될 수 있음.",
-        "[외적 타당도] 분석 기간이 1995~2008년으로 한정되어 이후 연구 동향에 대한 일반화에 제약이 있음.",
-        "[외적 타당도] 영어권 중심의 WoS 색인 특성상 비영어권 연구 성과가 과소 반영될 수 있어 전 세계 연구 동향으로의 일반화에 한계가 있음.",
-        "[내적 타당도] 클러스터링 및 요인 분석 결과의 해석이 연구자의 주관적 판단에 의존하는 측면이 있어 분류 체계의 객관성에 제약이 있음."
+        "내적 타당도: Web of Science 단일 데이터베이스만 사용하여 Scopus, Google Scholar 등 타 데이터베이스 수록 논문이 제외되었을 가능성이 있음. 키워드 선정 방식에 따른 검색 결과의 편향 가능성.",
+        "외적 타당도: 분석 대상이 영어권 논문 중심으로 편향될 수 있으며, WoS 색인 저널에 한정되어 비색인 학술지 및 학위논문, 학술대회 논문 등은 제외됨. 분석 기간이 1995~2008년으로 한정되어 최근 연구 동향 반영에 한계가 있음.",
+        "표준화 전문 저널의 부재로 인한 문헌 분산이 연구 주제 식별의 완전성을 제한할 수 있음."
       ],
-      "contributions": "[이론적 기여] 표준화와 혁신 연구 분야의 최초 체계적 서지계량 프로파일링을 통해 해당 분야의 지식 구조와 9개 주제 클러스터로 구성된 탐색적 분류 체계를 제시함으로써 후속 연구의 이론적 기반을 마련함. [방법론적 기여] 트렌드·요인·클러스터링 분석을 결합한 복합적 서지계량 연구 방법론을 표준화-혁신 연구 분야에 적용하는 방법론적 틀을 제시함. [정책적 기여]"
+      "contributions": "이론적 기여: '표준화와 혁신' 분야 연구의 최초 체계적 계량서지학적 프로파일링을 통해 9개 주제 클러스터로 구성된 탐색적 분류 체계(taxonomy)를 제시하고, 해당 분야의 지식 구조를 규명함. 방법론적 기여: 트렌드·요인·군집 분석을 결합한 복합적 서지분석 방법론을 표준화 연구 분야에 적용하는 방법론적 프레임워크 제시. 정책적 기여: 표준화와 혁신에 관한 지속적 정책 수립 및 미래 연구 방향 설정을 위한 실증적 근거 제공."
     },
     "journal_assessment": {
       "journal": "Scientometrics",
